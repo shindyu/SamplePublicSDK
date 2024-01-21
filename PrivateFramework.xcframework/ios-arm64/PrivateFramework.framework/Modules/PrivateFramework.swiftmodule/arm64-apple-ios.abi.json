@@ -1,0 +1,78 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivateFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrivateRepository",
+        "printedName": "PrivateRepository",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivateRepository",
+                "printedName": "PrivateFramework.PrivateRepository",
+                "usr": "s:16PrivateFramework0A10RepositoryC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PrivateFramework0A10RepositoryCACycfc",
+            "mangledName": "$s16PrivateFramework0A10RepositoryCACycfc",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "publicMethod",
+            "printedName": "publicMethod()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PrivateFramework0A10RepositoryC12publicMethodyyF",
+            "mangledName": "$s16PrivateFramework0A10RepositoryC12publicMethodyyF",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PrivateFramework0A10RepositoryC",
+        "mangledName": "$s16PrivateFramework0A10RepositoryC",
+        "moduleName": "PrivateFramework",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
