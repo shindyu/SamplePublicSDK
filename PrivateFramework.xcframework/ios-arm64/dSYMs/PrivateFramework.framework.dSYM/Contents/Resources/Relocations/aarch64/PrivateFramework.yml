@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/shindyu/Library/Developer/Xcode/DerivedData/PrivateFramework-fjhtbwsfctqmfmanykeoxgllzkpm/Build/Intermediates.noindex/ArchiveIntermediates/PrivateFramework/InstallationBuildProductsLocation/Library/Frameworks/PrivateFramework.framework/PrivateFramework'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x2DFDC, size: 0x8, addend: 0x0, symName: _PrivateFrameworkVersionString, symObjAddr: 0x0, symBinAddr: 0x4220, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x2E011, size: 0x8, addend: 0x0, symName: _PrivateFrameworkVersionNumber, symObjAddr: 0x40, symBinAddr: 0x4260, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x2E04E, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryCACycfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offsetInCU: 0x4B, offset: 0x2E072, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryCACycfC', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x10 }
+  - { offsetInCU: 0x69, offset: 0x2E090, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryCACycfc', symObjAddr: 0x10, symBinAddr: 0x4010, symSize: 0x8 }
+  - { offsetInCU: 0xB6, offset: 0x2E0DD, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryC12publicMethodyyF', symObjAddr: 0x18, symBinAddr: 0x4018, symSize: 0x124 }
+  - { offsetInCU: 0x19F, offset: 0x2E1C6, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryCfd', symObjAddr: 0x17C, symBinAddr: 0x417C, symSize: 0x8 }
+  - { offsetInCU: 0x1CE, offset: 0x2E1F5, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryCfD', symObjAddr: 0x184, symBinAddr: 0x4184, symSize: 0x10 }
+  - { offsetInCU: 0x21F, offset: 0x2E246, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x13C, symBinAddr: 0x413C, symSize: 0x40 }
+  - { offsetInCU: 0x233, offset: 0x2E25A, size: 0x8, addend: 0x0, symName: '_$s16PrivateFramework0A10RepositoryCMa', symObjAddr: 0x194, symBinAddr: 0x4194, symSize: 0x20 }
+...

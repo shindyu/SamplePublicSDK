@@ -57,7 +57,8 @@
             "moduleName": "PrivateFramework",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           }
@@ -68,7 +69,8 @@
         "moduleName": "PrivateFramework",
         "declAttributes": [
           "Final",
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ]
       }
     ],
