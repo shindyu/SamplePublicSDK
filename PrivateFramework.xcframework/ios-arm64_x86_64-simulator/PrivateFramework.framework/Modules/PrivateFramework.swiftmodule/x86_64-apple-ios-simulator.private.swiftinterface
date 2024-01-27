@@ -37,3 +37,17 @@ public struct PrivateSampleColorView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A15SampleColorViewV4bodyQrvp", 0) __
 }
+public struct PrivateSampleImageViewWithBundleId : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A27SampleImageViewWithBundleIdV4bodyQrvp", 0) __
+}
+public struct PrivateSampleColorViewWithBundleId : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A27SampleColorViewWithBundleIdV4bodyQrvp", 0) __
+}
