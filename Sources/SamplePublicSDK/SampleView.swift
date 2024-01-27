@@ -32,7 +32,7 @@ public struct SampleViewAccessPublicColor: View {
     
     public var body: some View {
         Text("color")
-            .foregroundStyle(Color("sample_public_color"))
+            .foregroundStyle(Color("sample_public_color", bundle: .module))
     }
 }
 
