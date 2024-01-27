@@ -72,9 +72,52 @@
           "AccessControl",
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrivateFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PrivateFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PrivateFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "PrivateFramework"
       }
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shindyu\/Library\/Developer\/Xcode\/DerivedData\/PrivateFramework-fjhtbwsfctqmfmanykeoxgllzkpm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PrivateFramework\/IntermediateBuildFilesPath\/PrivateFramework.build\/Release-iphonesimulator\/PrivateFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 683,
+      "length": 14,
+      "value": "\"sample_color\""
+    },
+    {
+      "filePath": "\/Users\/shindyu\/Library\/Developer\/Xcode\/DerivedData\/PrivateFramework-fjhtbwsfctqmfmanykeoxgllzkpm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PrivateFramework\/IntermediateBuildFilesPath\/PrivateFramework.build\/Release-iphonesimulator\/PrivateFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 988,
+      "length": 14,
+      "value": "\"sample_image\""
+    }
+  ]
 }

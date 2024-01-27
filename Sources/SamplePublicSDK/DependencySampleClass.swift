@@ -15,5 +15,7 @@ public class DependencySampleClass {
         print(#file, #function)
         
         PrivateRepository().publicMethod()
+        
+        PrivateRepository().publicMethod()
     }
 }
