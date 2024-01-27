@@ -8,8 +8,8 @@
 import SwiftUI
 import PrivateFramework
 
-struct SampleView: View {
-    var body: some View {
+public struct SampleView: View {
+    public var body: some View {
         Text("SampleView")
             .onAppear {
                 PrivateRepository().publicMethod()
