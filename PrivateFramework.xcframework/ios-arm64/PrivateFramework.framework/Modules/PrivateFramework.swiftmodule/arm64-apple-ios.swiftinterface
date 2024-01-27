@@ -37,4 +37,3 @@ public struct PrivateSampleColorView : SwiftUI.View {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A15SampleColorViewV4bodyQrvp", 0) __
 }
-#Preview()

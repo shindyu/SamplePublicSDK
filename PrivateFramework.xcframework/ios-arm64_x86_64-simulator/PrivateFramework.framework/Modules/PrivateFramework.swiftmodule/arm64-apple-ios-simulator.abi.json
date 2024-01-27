@@ -437,27 +437,6 @@
       "value": "\"sample_color\""
     },
     {
-      "filePath": "@__swiftmacro_16PrivateFramework33_9FAA0480B57E7E256ACAA0362662964ELl7PreviewfMf_.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 36,
-      "value": "\"PrivateFramework\/SwiftUIView.swift\""
-    },
-    {
-      "filePath": "@__swiftmacro_16PrivateFramework33_9FAA0480B57E7E256ACAA0362662964ELl7PreviewfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 306,
-      "length": 2,
-      "value": "30"
-    },
-    {
-      "filePath": "@__swiftmacro_16PrivateFramework33_9FAA0480B57E7E256ACAA0362662964ELl7PreviewfMf_.swift",
-      "kind": "IntegerLiteral",
-      "offset": 338,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/shindyu\/Library\/Developer\/Xcode\/DerivedData\/PrivateFramework-fjhtbwsfctqmfmanykeoxgllzkpm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PrivateFramework\/IntermediateBuildFilesPath\/PrivateFramework.build\/Release-iphonesimulator\/PrivateFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 683,
