@@ -23,7 +23,7 @@ public struct SampleViewAccessPrivateImage: View {
     public init() {}
     
     public var body: some View {
-        Image("sample_image", bundle: .module)
+        Image("sample_image")
     }
 }
 
@@ -32,7 +32,7 @@ public struct SampleViewAccessPrivateColor: View {
     
     public var body: some View {
         Text("color")
-            .foregroundStyle(Color("sample_color", bundle: .module))
+            .foregroundStyle(Color("sample_color"))
     }
 }
 
