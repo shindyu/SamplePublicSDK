@@ -16,3 +16,25 @@ final public class PrivateRepository {
   final public func publicMethod()
   @objc deinit
 }
+public struct PrivateSampleView : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A10SampleViewV4bodyQrvp", 0) __
+}
+public struct PrivateSampleImageView : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A15SampleImageViewV4bodyQrvp", 0) __
+}
+public struct PrivateSampleColorView : SwiftUI.View {
+  public init()
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s16PrivateFramework0A15SampleColorViewV4bodyQrvp", 0) __
+}
+#Preview()

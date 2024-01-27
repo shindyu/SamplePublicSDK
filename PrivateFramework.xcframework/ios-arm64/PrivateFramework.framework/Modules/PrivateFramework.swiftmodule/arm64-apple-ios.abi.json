@@ -75,6 +75,316 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PrivateFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrivateSampleView",
+        "printedName": "PrivateSampleView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivateSampleView",
+                "printedName": "PrivateFramework.PrivateSampleView",
+                "usr": "s:16PrivateFramework0A10SampleViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PrivateFramework0A10SampleViewVACycfc",
+            "mangledName": "$s16PrivateFramework0A10SampleViewVACycfc",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Text",
+                "printedName": "SwiftUI.Text",
+                "usr": "s:7SwiftUI4TextV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PrivateFramework0A10SampleViewV4bodyQrvp",
+            "mangledName": "$s16PrivateFramework0A10SampleViewV4bodyQrvp",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Text",
+                    "printedName": "SwiftUI.Text",
+                    "usr": "s:7SwiftUI4TextV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PrivateFramework0A10SampleViewV4bodyQrvg",
+                "mangledName": "$s16PrivateFramework0A10SampleViewV4bodyQrvg",
+                "moduleName": "PrivateFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PrivateFramework0A10SampleViewV",
+        "mangledName": "$s16PrivateFramework0A10SampleViewV",
+        "moduleName": "PrivateFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Text",
+                    "printedName": "SwiftUI.Text",
+                    "usr": "s:7SwiftUI4TextV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrivateSampleImageView",
+        "printedName": "PrivateSampleImageView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivateSampleImageView",
+                "printedName": "PrivateFramework.PrivateSampleImageView",
+                "usr": "s:16PrivateFramework0A15SampleImageViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PrivateFramework0A15SampleImageViewVACycfc",
+            "mangledName": "$s16PrivateFramework0A15SampleImageViewVACycfc",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Image",
+                "printedName": "SwiftUI.Image",
+                "usr": "s:7SwiftUI5ImageV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PrivateFramework0A15SampleImageViewV4bodyQrvp",
+            "mangledName": "$s16PrivateFramework0A15SampleImageViewV4bodyQrvp",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PrivateFramework0A15SampleImageViewV4bodyQrvg",
+                "mangledName": "$s16PrivateFramework0A15SampleImageViewV4bodyQrvg",
+                "moduleName": "PrivateFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PrivateFramework0A15SampleImageViewV",
+        "mangledName": "$s16PrivateFramework0A15SampleImageViewV",
+        "moduleName": "PrivateFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PrivateSampleColorView",
+        "printedName": "PrivateSampleColorView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PrivateSampleColorView",
+                "printedName": "PrivateFramework.PrivateSampleColorView",
+                "usr": "s:16PrivateFramework0A15SampleColorViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PrivateFramework0A15SampleColorViewVACycfc",
+            "mangledName": "$s16PrivateFramework0A15SampleColorViewVACycfc",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16PrivateFramework0A15SampleColorViewV4bodyQrvp",
+            "mangledName": "$s16PrivateFramework0A15SampleColorViewV4bodyQrvp",
+            "moduleName": "PrivateFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16PrivateFramework0A15SampleColorViewV4bodyQrvg",
+                "mangledName": "$s16PrivateFramework0A15SampleColorViewV4bodyQrvg",
+                "moduleName": "PrivateFramework",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PrivateFramework0A15SampleColorViewV",
+        "mangledName": "$s16PrivateFramework0A15SampleColorViewV",
+        "moduleName": "PrivateFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -105,6 +415,48 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/shindyu\/Workspace\/iOS\/PrivateFramework\/PrivateFramework\/SwiftUIView.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 19,
+      "value": "\"PrivateSampleView\""
+    },
+    {
+      "filePath": "\/Users\/shindyu\/Workspace\/iOS\/PrivateFramework\/PrivateFramework\/SwiftUIView.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 14,
+      "value": "\"sample_image\""
+    },
+    {
+      "filePath": "\/Users\/shindyu\/Workspace\/iOS\/PrivateFramework\/PrivateFramework\/SwiftUIView.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 14,
+      "value": "\"sample_color\""
+    },
+    {
+      "filePath": "@__swiftmacro_16PrivateFramework33_9FAA0480B57E7E256ACAA0362662964ELl7PreviewfMf_.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 36,
+      "value": "\"PrivateFramework\/SwiftUIView.swift\""
+    },
+    {
+      "filePath": "@__swiftmacro_16PrivateFramework33_9FAA0480B57E7E256ACAA0362662964ELl7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "@__swiftmacro_16PrivateFramework33_9FAA0480B57E7E256ACAA0362662964ELl7PreviewfMf_.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 1,
+      "value": "1"
+    },
     {
       "filePath": "\/Users\/shindyu\/Library\/Developer\/Xcode\/DerivedData\/PrivateFramework-fjhtbwsfctqmfmanykeoxgllzkpm\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PrivateFramework\/IntermediateBuildFilesPath\/PrivateFramework.build\/Release-iphoneos\/PrivateFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
